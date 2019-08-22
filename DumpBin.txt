@@ -1,0 +1,136 @@
+Poppin Party:
+<:Kasumi:607412174452949015>
+<:Otae:607412200780333107>
+<:Rimi:607412221433217075>
+<:Saya:607412244287848454>
+<:Arisa:607412266563928067>
+
+Afterglow:
+<:Ran:607411999080448010>
+<:Moca:607412020500758568>
+<:Himari:607412042877370377>
+<:Tomoe:607412125392044042>
+<:Tsugumi:607412146929926145>
+
+Hello Happy World:
+<:Kokoro:607411730808700928>
+<:Kaoru:607411762224037888>
+<:Hagumi:607411786488217610>
+<:Kanon:607411811758768129>
+<:Michelle:607411836521807913>
+
+Pastel Palletes:
+<:Aya:607411857027760138>
+<:Hina:607411897863503872>
+<:Chisato:607411921020387338>
+<:Maya:607411953492557834>
+<:Eve:607411975529431051>
+
+Roselia:
+<:Yukina:607404338251300884>
+<:Sayo:607404500898152489>
+<:Lisa:607404422611599362>
+<:Ako:607404525665386527>
+<:Rinko:607404464223027223>
+
+Attribute Emoji Code:
+<:Happy:607419853669662761>
+<:Powerful:607419709133946892>
+<:Pure:607419782890782720>
+<:Cool:607419809633927169>
+
+Attribute Icons:
+/res/icon/happy.svg
+/res/icon/powerful.svg
+/res/icon/pure.svg
+/res/icon/cool.svg
+
+Character Icons:
+/res/icon/chara_icon_1.png Kasumi
+/res/icon/chara_icon_2.png Tae
+/res/icon/chara_icon_3.png Rimi
+/res/icon/chara_icon_4.png Saya
+/res/icon/chara_icon_5.png Arisa
+
+/res/icon/chara_icon_6.png Ran
+/res/icon/chara_icon_7.png Moca
+/res/icon/chara_icon_8.png Himari
+/res/icon/chara_icon_9.png Tomoe
+/res/icon/chara_icon_10.png Tsugumi
+
+/res/icon/chara_icon_11.png Kokoro
+/res/icon/chara_icon_12.png Kaoru
+/res/icon/chara_icon_13.png Hagumi
+/res/icon/chara_icon_14.png Kanon
+/res/icon/chara_icon_15.png Misaki
+
+/res/icon/chara_icon_16.png Aya
+/res/icon/chara_icon_17.png Hina
+/res/icon/chara_icon_18.png Chisato
+/res/icon/chara_icon_19.png Maya
+/res/icon/chara_icon_20.png Eve
+
+/res/icon/chara_icon_21.png Yukina
+/res/icon/chara_icon_22.png Sayo
+/res/icon/chara_icon_23.png Lisa
+/res/icon/chara_icon_24.png Ako
+/res/icon/chara_icon_25.png Rinko
+
+
+
+https://bestdori.com/info/events/51/Growing-Up-Sisters
+https://bestdori.com/info/events/52/Summer-in-the-Shining-Land-of-Water
+https://bestdori.com/info/events/53/Before-the-Start-of-a-New-Season
+https://bestdori.com/info/events/54/Tied-to-the-Skies
+https://bestdori.com/info/events/55/A-Dreamy-Promenade
+https://bestdori.com/info/events/56/Trick-or-Escape
+https://bestdori.com/info/events/57/You-Gotta-Be-Here
+https://bestdori.com/info/events/58/Arisa-s-Not-Terrible-Day-Off
+https://bestdori.com/info/events/59/Backstage-Method
+https://bestdori.com/info/events/60/The-Afterglow-of-Our-Fading-Pride
+https://bestdori.com/info/events/61/Earnest-Song-for-me
+https://bestdori.com/info/events/62/A-Nostalgic-Christmas
+https://bestdori.com/info/events/63/Winter-Sky-March
+https://bestdori.com/info/events/64/Twin-Star-Ensemble
+https://bestdori.com/info/events/65/We-re-All-Together-New-Years-Party
+https://bestdori.com/info/events/66/My-Ideal-Self
+https://bestdori.com/info/events/67/A-Fleeting-Night-s-Dream
+https://bestdori.com/info/events/68/Who-s-the-Chocolate-For
+https://bestdori.com/info/events/69/A-Day-Off-in-the-Shopping-District
+https://bestdori.com/info/events/70/Prelude-s-Replay
+https://bestdori.com/info/events/71/The-Whitest-Day
+https://bestdori.com/info/events/72/Message-for-You
+https://bestdori.com/info/events/73/Backstage-Pass-2
+https://bestdori.com/info/events/74/FULL-BLOOMING-Shower
+https://bestdori.com/info/events/75/Turning-Season-the-Sky-of-Beginnings
+https://bestdori.com/info/events/76/That-Corner-of-the-Blooming-Schoolhouse
+https://bestdori.com/info/events/77/Mole-Man-Delivery-Strategy
+https://bestdori.com/info/events/78/Piercing-the-Darkness-A-Blue-Rose-s-Pride
+https://bestdori.com/info/events/79/Move-Out-Smile-Patrol-Squad
+https://bestdori.com/info/events/80/Flowery-June-bride
+https://bestdori.com/info/events/81/Noble-Rose-Take-the-Flower
+https://bestdori.com/info/events/82/Band-Girls-of-the-Dead
+https://bestdori.com/info/events/83/How-To-Spend-a-Precious-Day
+https://bestdori.com/info/events/84/Hopeful-Session
+https://bestdori.com/info/events/85/STAND-BY-YOU
+https://bestdori.com/info/events/86/Just-Our-Summer-Vacation
+
+
+client.on('message', message => {
+
+  if (message.author.bot) return undefined //bot does not reply to itself
+
+  let msg = message.content.toLowerCase()
+  let args = message.content
+    .slice(prefix.length)
+    .trim()
+    .split(' ') //arguements
+  let command = args.shift().toLowerCase() //shifts args to lower case letters
+
+  if (command === 'say') {
+    let say = args.join(' ') //space
+    message.delete() //deletes the message you sent
+    const generalChannel = message.guild.channels.find(channel => channel.name === "general")
+    generalChannel.send(say)
+  }
+})
