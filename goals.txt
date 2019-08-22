@@ -1,0 +1,27 @@
+Top 100/1,000 x 
+Status: Time Left x 
+Latest Cutoff x 
+Latest Prediction x 
+Last Updated
+
+Current Event x 
+Type Of Event x
+Event Units x
+Attribute	 x
+
+
+  
+KB T100/T1000
+  Status: Time Left
+  Latest Cutoff
+  Latest Prediction
+  Last Updated
+
+KB Event
+  Name of Event:
+  Type of Event:
+  Attribute:
+  Event Units:
+  Time Left
+  
+issues:
