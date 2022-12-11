@@ -9,7 +9,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "discord.js": "^11.5.1",
     "discord": "^0.8.2",
     "phantom": "^6.2.0",
